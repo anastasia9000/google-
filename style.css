@@ -3,17 +3,26 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box; text-decoration: none;
+    text-decoration-color:fff;
+    color: black;
+    
+
 }
 
 .container{
     padding: 5px;
     text-decoration: none;
     color: black;
-    display: flex;
+    display: flex ;
+    
+    
 }
+
 .about {
-    text-decoration: none;
     padding: 5px;
+    
+
 }
 
 .store {
@@ -21,6 +30,7 @@
 }
 
 .gmail {
+    margin-left: auto;
     padding: 5px;
 
 }
@@ -28,3 +38,47 @@
 .images{
     padding: 5px;
 }
+
+.grid{
+    padding: 5px;
+
+}
+
+.profile{
+    padding: 5px;
+}
+
+.center{
+    width: 550px;
+    height: 4%;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.footer{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    bottom: 0;
+
+    
+}
+  .right{
+      padding: 5px;
+      text-decoration: none;
+      color: black;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+  }
+  .a{
+      text-decoration: none;
+      text-decoration-color:fff;
+      color: black;
+      
+  }
+
